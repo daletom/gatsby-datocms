@@ -75,7 +75,7 @@ query {
         heroimage {
           alt
           fluid(imgixParams: {
-            ar: "1.8:1", fit: "crop", crop: "faces,edges"
+            ar: "1.8:1", fit: "crop", crop: "faces,edges", auto: "compress"
           }) {
             src
             srcSet
